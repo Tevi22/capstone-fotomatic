@@ -14,8 +14,21 @@ html {
 .center {
   text-align: center;
 }
-
+/* Join Button 
 .button {
+  position: ;
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+  width: 200px;
+  height: 64px;
+  font-size: 1.4rem;
+  font-family: "roboto-medium";
+  line-height: 1.4rem;
+}*/
+
+/* Join Button */
+div.button {
   border-radius: 4px;
   background-color: #4a4a4a;
   color: white;
@@ -23,18 +36,21 @@ html {
   height: 64px;
   font-size: 1.4rem;
   font-family: "roboto-medium";
-  line-height: 1.4;
-  margin-left: 80px;
-  margin-right: 80px;
+  line-height: 1.4rem;
   
+
 }
 
 .image-container {
-  overflow: hidden;
+  overflow: ;
+  height: 635px;
+  width: auto;
 }
 
 .image-container img {
   display: block;
+  height: 65%;
+  width: 90%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -85,7 +101,8 @@ header nav ul {
   display: inline block;
   list-style: none;
   width: auto;
-  flex-direction: left;
+  flex-direction: row;
+  margin-left: 650px;
 }
 
 nav li {
@@ -154,6 +171,7 @@ header .mobile {
 }
 /* Fotomatic container */
 #sign-up-cta { 
+  position: relative;
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
@@ -161,7 +179,9 @@ header .mobile {
   margin-top: 4rem;
   margin-left: 4rem;
   height: 120;
-  width: 400;
+  width: 400px;
+  margin-top: 170px;
+  margin-right: 100px;
 
 }
 /*Background Image*/
@@ -265,6 +285,8 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
+  height: 635px;
+  width: auto;
 }
 
 .feature {
@@ -285,6 +307,10 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
+  font-size: 36px;
+  font-family: "roboto-bold";
+  line-height: 1.2;
+  font-weight: bold;
 }
 
 .feature h3 {
@@ -292,6 +318,9 @@ header .mobile {
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+  font-size: 1rem;
+  font-family: "roboto-light";
+  line-height: 1.2;
 }
 
 @media only screen and (max-width: 890px) {

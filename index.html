@@ -1,121 +1,145 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="C:/Users/Perso/Tevin/capstone-fotomatic/resources/css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <div class="content">
-      <a href="index.html" class="desktop logo">Fotomatic</a>
-      <nav class="desktop">
-        <ul>
-          <li><a href="#">Product detail</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="https://www.instagram.com/">Follow us <img class="icon" src="./resources/images/instagram.png"></a></li>
-        </ul>
-      </nav>
-      <nav class="mobile">
-        <ul>
-          <li><a href="#"><img src="./resources/images/ic-logo.svg"></a></li>
-          <li><a href="#"><img src="./resources/images/ic-product-detail.svg"></a></li>
-          <li><a href="#"><img src="./resources/images/ic-about-us.svg"></a></li>
-          <li><a href="#" class="button">Join us</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <!-- Main Content -->
-  <div class="main-content">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-md" id="nav">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Fotomatic</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navBarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navBarMenu" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Product detail</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/"><i
+                                class="fa fa-instagram"></i>Follow us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
 
     <!-- Sign Up Section -->
-    <div id="sign-up-section" class="banner">
-      <div id="sign-up-cta">
-        <div class="content center">
-          <div class="header">
-            <h2 class="cursive">Instant</h2>
-            <h1 class="striking">FORMAT CAMERA</h1>
-          </div>
-          <div class="email">
-            <span>
-              Email us to request a demo and be in our waiting list for the <strong>Febuary 2017</strong> release!
-            </span>
-            <div class="button">Join the waiting list</div>
-          </div>
+    <div class="container-fluid" id="signup-container">
+        <div class="row justify-content-center mt-6">
+            <div class="col-md-4 ">
+                <div id="banner" class="card text-center mt-5">
+                    <div class="card-body">
+                        <h2 class="cursive">Instant</h2>
+                        <h1 class="striking">FORMAT CAMERA</h1>
+                        <span>
+                            Email us to request a demo and be in our waiting list for the <strong>Febuary
+                                2021</strong>
+                            release!
+                        </span>
+                        <br>
+                        <a href="#" class="btn btn-secondary mt-2">Join the waiting list</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
-    <!-- Features Section -->
-    <div id="features-section">
-      <div class="feature">
-        <div class="center">
-          <div class="image-container">
-            <img src="images/feature-1.png" />
-          </div>
-          <div class="content">
-            <h2>Advanced, automatic, instant</h2>
-            <h3>Shutter speed, apperture and flash output adjust automatically</h3>
-          </div>
+    <!-- Feature Section -->
+    <div id="feature" class="container-fluid mt-3">
+        <!-- Feature Section -->
+        <div class="row justify-content-around">
+            <div class="col-md-5">
+                <div class="card text-center">
+                    <img src="./resources/images/feature-1.png" class="card-img-top" alt="Hand holding camara lens.">
+                    <div class="card-body">
+                        <h5 class="card-title">Advanced, automatic, instant</h5>
+                        <p class="card-text">Shutter speed, apperture and flash output adjust automaticall</p>
+                        <a href="#" class="btn btn-primary">Check It Out Here!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card text-center">
+                    <img src="./resources/images/feature-2.png" class="card-img-top"
+                        alt="Close up view of camara lens.">
+                    <div class="card-body">
+                        <h5 class="card-title">Beautifully crafted inside-out</h5>
+                        <p class="card-text">From the paint outside to the tiny screw inside, Fotomatic is crafted with
+                            love
+                            and 20-year of expertise</p>
+                        <a href="#" class="btn btn-primary">Check It Out Here!</a>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
-      </div>
-      <div class="feature">
-        <div class="center">
-          <div class="image-container">
-            <img src="images/feature-2.png" />
-          </div>
-          <div class="content">
-            <h2>Beautifully crafted inside-out</h2>
-            <h3>From the paint outside to the tiny screw inside, Fotomatic is crafted with love and 20-year of expertise</h3>
-          </div>
-        </div>
-      </div>
     </div>
 
     <!-- Filters Section -->
-    <div id="filters-section">
-      <div class="content center">
-        <h2>Over 20+ filters to choose from</h2>
-        <h3>Feed your creativity with 20 different filter designed by our eclectic in-house photographers!</h3>
-      </div>
-      <div class="images-container">
-        <div class="image-container">
-          <img src="./resources/images/filter-1.png" />
+    <div id="filters" class="container-fluid mt-3">
+        <br>
+        <div class="content center mt-3 text-center">
+            <h2>Over 20+ filters to choose from</h2>
+            <h3>Feed your creativity with 20 different filter designed by our eclectic in-house photographers!</h3>
         </div>
-        <div class="image-container">
-          <img src="./resources/images/filter-2.png" />
+        <br>
+        <div class="container-fluid row justify-content-around mt-3">
+            <div class="card text-center" style="width: 24rem;">
+                <img src="./resources/images/filter-1.png" class="card-img-top" alt="man holding flower">
+            </div>
+            <div class="card text-center mt-3" style="width: 24rem;">
+                <img src="./resources/images/filter-2.png" class="card-img-top" alt="cherry blossom">
+            </div>
         </div>
-        <div class="image-container">
-          <img src="./resources/images/filter-3.png" />
+        <div class="container-fluid row justify-content-around mt-3">
+            <div class="card text-center" style="width: 24rem;">
+                <img src="./resources/images/filter-3.png" class="card-img-top" alt="man holding camara">
+            </div>
+            <div class="card text-center mt-3" style="width: 24rem;">
+                <img src="./resources/images/filter-4.png" class="card-img-top" alt="landscape">
+            </div>
         </div>
-        <div class="image-container extra">
-          <img src="./resources/images/filter-4.png" />
-        </div>
-      </div>
+        <!-- Quotes Section -->
+        <figure class="mt-5">
+            <blockquote class="blockquote text-center">
+                <p>“It’s truly something that could create a brand new photography Renaissance”</p>
+            </blockquote>
+            <figcaption class="blockquote-footer text-center">
+                <img class="quote-citation" src="./resources/images/photography-logo.png" alt="photography logo" />
+            </figcaption>
+        </figure>
+        <br>
+        <br>
     </div>
 
-    <!-- Quotes Section
-    <div id="quotes-section">
-      <div class="content center">
-        <span class="quote">“It’s truly something that could create a brand new photography Renaissance”</span>
-        <img class="quote-citation" src="./resources/images/photography-logo.png" />
-      </div>
-    </div>
 
-    <!-- Footer -->
+    <!--Footer -->
     <footer>
-      <div class="content">
-        <span class="copyright">© 2016  Fotomatic, All Rights Reserved</span>
-        <span class="location">Designed in NYC</span>
-      </div>
+        <div class="content">
+            <span class="copyright">© 2021 Fotomatic, All Rights Reserved</span>
+            <span class="location">Designed in NYC</span>
+        </div>
     </footer>
 
-  </div>
+
 </body>
+
 </html>

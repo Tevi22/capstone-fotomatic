@@ -14,6 +14,7 @@ The Fotomatic landing page features a clean and modern design that incorporates 
 
 ## Project Structure
 
+```bash
 Fotomatic-Landing-Page/
 │
 ├── index.html               # Main HTML file for the landing page
@@ -29,6 +30,7 @@ Fotomatic-Landing-Page/
 │       ├── filter-4.png
 │       └── photography-logo.png
 └── README.md                # This README file
+```
 
 ## Features
 
